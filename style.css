@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.Header {
+  padding: 20px;
+  background-color: red;
+}
+.btnGroup .headerBtn {
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20;
+  cursor: pointer;
+  border: none;
+  
+}
