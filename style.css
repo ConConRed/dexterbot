@@ -2,17 +2,34 @@
   margin: 0px;
   font-family: sans-serif;
 }
-.Header {
-  padding: 20px;
-  background-color: red;
+body {
+  background-color: rgb(21, 19, 28);
 }
-.btnGroup .headerBtn {
-  padding: 15px 50px;
+.Header {
+  background-color: rgb(14, 13, 19);
+  overflow: hidden;
+  padding: 10px;
+}
+.Header a {
+  float: left;
+  display: block;
+  color:white;
   text-align: center;
+  padding: 10px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 20;
-  cursor: pointer;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+.Header a:hover {
+  border-bottom: 3px solid red;
+  transition: .5s;
+}
+.Header a.active {
+  border-bottom: 3px solid red;
+}
+hr {
   border: none;
-  
+  height: 1px;
+  background-color: grey;
+
 }
