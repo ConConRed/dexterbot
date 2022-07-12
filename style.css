@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   font-family: sans-serif;
+  color: white;
 }
 body {
   background-color: rgb(21, 19, 28);
@@ -54,7 +55,7 @@ body {
 .footer {
   background-color: rgb(14, 13, 19);
   overflow: hidden;
-  padding: 15px;
+  padding: 50px;
   color: white;
 }
 
@@ -68,4 +69,24 @@ body {
 }
 .info {
   padding: 200px;
+text-align: center;
+}
+.info h1 {
+  font-size: 50px;
+  padding: 50px 0px;
+}
+
+.column1 {
+  display: inline-block;
+  background-color: orange;
+  padding: 50px 25px;
+  width: 650px;
+  max-width: 650px;
+}
+.column2 {
+  display: inline-block;
+  background-color: orange;
+  padding: 50px 25px;
+  width: 650px;
+  max-width: 650px;
 }
